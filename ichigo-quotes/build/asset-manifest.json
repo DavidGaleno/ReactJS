@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.073c9b0a.css",
+    "main.js": "./static/js/main.19826c41.js",
+    "static/js/787.3d7746e6.chunk.js": "./static/js/787.3d7746e6.chunk.js",
+    "static/media/Ichigo.png": "./static/media/Ichigo.f9aa1811eae682349205.png",
+    "static/media/background.jpg": "./static/media/background.5e3a24471a76eb98a7d0.jpg",
+    "static/media/jutso.mp3": "./static/media/jutso.eb250a48122eb745dfea.mp3",
+    "index.html": "./index.html",
+    "main.073c9b0a.css.map": "./static/css/main.073c9b0a.css.map",
+    "main.19826c41.js.map": "./static/js/main.19826c41.js.map",
+    "787.3d7746e6.chunk.js.map": "./static/js/787.3d7746e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.19826c41.js"
+  ]
+}
