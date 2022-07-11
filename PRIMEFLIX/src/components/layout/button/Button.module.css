@@ -1,0 +1,47 @@
+.watch,.mylist{
+    position: relative;
+    padding: 1.5rem 2.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 0;
+}
+
+
+
+.watch{
+    background-color: white;
+    margin-right: 3rem;
+}
+.mylist{
+    background-color: #333233;
+    color: white;
+}
+.watch::before,.mylist::before{
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background-color: black;
+    transition: .2s;
+}
+.watch:hover::before,.mylist:hover::before{
+    opacity: .5;
+}
+
+@media screen and (max-width:705px){
+    .watch,.mylist{
+        position: relative;
+        padding: 1rem 2rem;
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        border: 0;
+    }
+}

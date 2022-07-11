@@ -1,0 +1,64 @@
+.movie{
+    display: inline-block;
+    transition: .5s;
+    transform: scale(.9);
+    cursor: pointer;
+}
+
+.list{
+    position: relative;
+    margin-bottom: 2rem; 
+}
+
+.moviesArea{
+    overflow-x: hidden;
+}
+
+.movieRow:last-child{
+    margin-bottom: 2rem;
+}
+.movie img{
+    width: 100%;
+}
+
+.movie:hover{
+    transform: scale(1);
+}
+
+h2{
+    font-size: 4rem;
+    padding-left: 2rem;
+    margin-bottom: .5rem;
+}
+
+.leftbutton,.rightbutton{
+    position: absolute;
+    width: 4rem;
+    background-color: rgba(0, 0, 0, 0.397);
+    height: auto;
+    opacity: 1;
+    z-index: 99;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow-x: hidden;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    transition: .5s;
+}
+
+.leftbutton{
+    left:0;
+}
+
+.rightbutton{
+    right: 0;  
+}
+
+@media screen and (max-width:665px){
+    h2{
+        font-size: 2rem;
+    }
+}
+

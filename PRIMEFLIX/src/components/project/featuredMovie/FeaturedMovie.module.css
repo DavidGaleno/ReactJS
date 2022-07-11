@@ -1,0 +1,118 @@
+.featured{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 2rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 3rem;
+    min-height: 555px;
+}
+
+.featured::before{
+    display: block;
+    top: 0;
+    left: 0;
+    content: '';
+    position: absolute;
+    width: inherit;
+    height: inherit;
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0.900),rgba(0, 0, 0, 0.100));
+}
+
+h1{
+    font-size: 5rem;
+    position:relative;
+    margin-bottom: 3rem;
+}
+
+.sinopse,.genre{
+    position: relative;
+
+}
+
+.sinopse{
+    font-size: 2rem;
+    width: 50%;
+    text-align: justify;
+    line-height: 1.5;
+    color: rgb(221, 219, 219);
+    
+}
+.info,.sinopse{
+    margin-bottom: 2rem;
+}
+.info{
+    position: relative;
+    font-size: 3rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.info{
+    margin-bottom: 1rem;
+}
+.buttons{
+    margin-bottom: 2rem;
+}
+.genres{
+    font-size: 2rem;
+    position: relative;
+}
+
+.green{
+    color: green;
+}
+.yellow{
+    color: yellow;
+}
+.red{
+    color: red;
+}
+.none{
+    color: white;
+}
+
+@media screen and (max-width:950px){
+    .sinopse{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:705px){
+    h1{
+        font-size: 3rem;
+    }
+    .sinopse{
+        font-size: 2rem;
+    }
+    .genres,.info{
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width:390px){
+  
+    .sinopse{
+        font-size: 1.5rem;
+    }
+}
+
+
+
+
+@media screen and (max-height:555px){
+    .featured{
+        padding-top: 90px;
+        padding-bottom: 3rem;
+    }
+    
+.featured::before{
+    height: 100%;
+}
+}

@@ -1,0 +1,38 @@
+header{
+    position: fixed;
+    padding: 2rem 3rem;
+    z-index: 100;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 5rem;
+    background: transparent;
+    font-weight: bolder;
+    transition: .2s;
+    min-height: 58px;
+}
+.black{
+    background-color: black !important;
+}
+.word{
+    color: red;
+    cursor: pointer;
+}
+.firstword{
+    color: #00A6DE;
+}
+i{
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+@media screen and (max-width:500px){
+    header{
+        font-size: 3rem;
+    }
+    i{
+        font-size: 2rem;
+    }
+}
