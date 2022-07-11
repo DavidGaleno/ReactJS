@@ -6,11 +6,13 @@
 .pnp.js
 
 
+requisition
+
 # testing
 /coverage
 
 # production
-/requisition
+
 /build
 
 # misc
