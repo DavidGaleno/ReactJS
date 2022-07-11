@@ -1,7 +1,7 @@
 # ScreenShots
 
 
-Use ### `npm start`
+Use `npm start`
 To run this project
 
 
