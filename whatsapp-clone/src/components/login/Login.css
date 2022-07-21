@@ -1,0 +1,21 @@
+.login{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login button{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    border-radius: 5rem;
+    box-shadow:  .1rem 1rem .8rem #888888;
+    padding: 1.2rem 6rem;
+    background-color: #1D9BF0;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}

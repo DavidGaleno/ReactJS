@@ -1,0 +1,67 @@
+.chat-list-item{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    height: 7rem;
+}
+
+.chat-list-item:hover{
+    background-color: #f5f5f5;
+}
+
+
+.active{
+    background-color: #ebebeb;
+}
+
+.contact-avatar{
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin-left: 1.5rem;
+}
+
+.lines{
+    display: flex;
+    height: 100%;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: .1rem solid #EEE;
+    padding-right: 1.5rem;
+    margin-left: 1.5rem;
+    flex-wrap: wrap;
+    min-width: 0;
+}
+
+.line{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+}
+
+.contact-name{
+    font-size: 1.7rem;
+    margin-bottom: .5rem;
+    color: black;
+}
+
+.date{
+    font-size: 1.2rem;
+    color: #999;
+}
+
+.last-message{
+    font-size: 1.4rem;
+    color: #999;
+    display: flex;
+    width: 100%;
+}
+
+.last-message p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    margin: 0;
+}

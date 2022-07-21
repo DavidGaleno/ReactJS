@@ -1,0 +1,7 @@
+aside{
+    width: 35%;
+    max-width: 41.5rem;
+    display: flex;
+    flex-direction: column;
+    border-right: .1rem solid #DDD;
+  }
